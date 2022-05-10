@@ -3,7 +3,8 @@ import { KINGMAN_CLIENT } from "./BaceSystem/Client";
 //const sessionData = existsSync('./session.json') ? require('./session.json') : undefined;
 //LegacySessionAuth is not compatible with multidevice-enabled accounts due to a change in how WhatsApp Web handles authentication for these accounts.
 //So You Cant Save Session in Json file using [multidevice-enabled]
-//if [multidevice-disabled] uncomment line 3 and all comment is ./src/auth.ts and auth_faild.ts
+//if [multidevice-disabled] uncomment line 3 and all comment is ./src/auth.ts and auth_faild.ts and import LegacySessionAuth from whatsapp-web.js 
+//then use LegacySessionAuth in authStrategy
 const client = new KINGMAN_CLIENT({
     authStrategy: new LocalAuth({
         clientId:"muhammad_kurkar",
