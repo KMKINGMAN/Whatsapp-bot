@@ -1,0 +1,25 @@
+{
+  "name": "whatsappbot-kmcodes",
+  "version": "0.5.0",
+  "description": "whatsapp-bot",
+  "main": "src/index.ts",
+  "repository": "https://github.com/kmkingman",
+  "author": "muhammad rafat kurkar [+962792914245]",
+  "license": "BSL-1.0",
+  "dependencies": {
+    "@discordjs/collection": "^0.5.0",
+    "@types/node": "^17.0.23",
+    "@types/qrcode-terminal": "^0.12.0",
+    "@vitalets/google-translate-api": "^8.0.0",
+    "axios": "^0.26.1",
+    "dotenv": "^16.0.0",
+    "node-html-to-image": "^3.2.4",
+    "qrcode-terminal": "^0.12.0",
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.3",
+    "whatsapp-web.js": "^1.16.6"
+  },
+  "scripts": {
+    "start": "ts-node src/index.ts"
+  }
+}
